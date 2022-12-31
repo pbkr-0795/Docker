@@ -4,7 +4,7 @@ services:
     image: nginx:latest
     restart: always
     ports:
-      - "8089:80"    
+      - "8087:80"    
   db:
     image: mysql:latest
     restart: always
